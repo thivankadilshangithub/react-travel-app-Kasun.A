@@ -25,7 +25,7 @@ export default function Testimonial() {
             </div>
           </div>
           <p className="desrciption">
-            Jetrips Hotel is an excellent choice for anybody for considering
+            Hilton Makkah Convention Hotel is an excellent choice for anybody for considering
             hosting their events there. Top level facilities and excellent staff
             make for a briallant environment within which to operate. The hotel
             is meticulous in its planning.

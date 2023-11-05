@@ -3,31 +3,33 @@ import styled from "styled-components";
 import cuba from "../assets/cuba.png";
 import paris from "../assets/paris.png";
 import japan from "../assets/japan.png";
+import blue from "../assets/new/blue-abaya.jpg"
+import kingdom from "../assets/new/kingdom.webp"
+import riyadh from "../assets/new/Riyadh.jpg"
 import Button from "./Button";
 export default function Destinations() {
   const data = [
     {
-      name: "Cuba City",
-      image: cuba,
+      name: "Blue Abaya",
+      image: blue,
     },
     {
-      name: "Paris",
-      image: paris,
+      name: "Kingdom Center",
+      image: kingdom,
     },
     {
-      name: "Japan",
-      image: japan,
+      name: "Riyadh Skyscrapers",
+      image: riyadh,
     },
   ];
   return (
     <Section id="destination">
       <div className="info">
         <h2>
-          Top <span>Destinations</span> In The World
+          Top <span>Destinations</span> In Saudi Arabia
         </h2>
         <p>
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout from it.
+        Explore the top destinations in Saudi Arabia, where ancient history and modern marvels converge in a unique tapestry of culture and beauty
         </p>
         <Button text="Discover More" />
       </div>

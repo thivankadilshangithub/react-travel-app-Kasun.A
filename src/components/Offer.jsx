@@ -28,7 +28,7 @@ export default function Offer() {
       </div>
       <div className="content">
         <div className="title">
-          <h1>We are Offering in Total 793 Tours Across the World</h1>
+          <h1>We are Offering in Total 120 Tours Across Saudi Arabia</h1>
         </div>
         <ul className="list">
           {data.map(({ text, icon, color }) => {

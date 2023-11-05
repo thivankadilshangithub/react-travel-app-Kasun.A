@@ -9,22 +9,22 @@ export default function Services() {
     {
       image: service1,
       title: "Choose Destination",
-      description: "Lorem Ipsum is simply dummy text of the printing setting",
+      description: "Select your perfect destination and start planning your dream vacation",
     },
     {
       image: service2,
       title: "Explore the Place",
-      description: "Lorem Ipsum is simply dummy text of the printing setting",
+      description: "Dive into local exploration and discover the hidden charms of your chosen destination",
     },
     {
       image: service3,
       title: "Start Your Journey",
-      description: "Lorem Ipsum is simply dummy text of the printing setting",
+      description: "Begin your adventure today and embark on a journey filled with unforgettable experiences",
     },
     {
       image: service4,
       title: "Let's Enjoy",
-      description: "Lorem Ipsum is simply dummy text of the printing setting",
+      description: "Embrace the joy of travel and create beautiful memories for lifetime",
     },
   ];
   return (
