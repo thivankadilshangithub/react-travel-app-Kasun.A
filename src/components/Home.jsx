@@ -12,7 +12,7 @@ export default function Home() {
       <div className="content">
         <div className="info">
           <h1>It's Time To</h1>
-          <h1>Explore The World</h1>
+          <h1>Explore Saudi Arabia</h1>
           <Button text="Plan Your Trip" />
         </div>
         <div className="planner">
