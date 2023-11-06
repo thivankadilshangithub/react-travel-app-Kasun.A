@@ -7,6 +7,7 @@ import blue from "../assets/new/blue-abaya.jpg"
 import kingdom from "../assets/new/kingdom.webp"
 import riyadh from "../assets/new/Riyadh.jpg"
 import Button from "./Button";
+import { Link } from 'react-router-dom';
 export default function Destinations() {
   const data = [
     {
@@ -25,13 +26,19 @@ export default function Destinations() {
   return (
     <Section id="destination">
       <div className="info">
+        <>
         <h2>
           Top <span>Destinations</span> In Saudi Arabia
         </h2>
         <p>
         Explore the top destinations in Saudi Arabia, where ancient history and modern marvels converge in a unique tapestry of culture and beauty
         </p>
+        <Link to="/destination">
         <Button text="Discover More" />
+
+        </Link>
+        </>
+        
       </div>
 
       <div className="destinations">

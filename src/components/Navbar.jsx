@@ -29,7 +29,7 @@ export default function Navbar() {
       <div className={`links ${isNavOpen ? "show" : ""}`}>
         <ul>
           <li>
-            <a href="#services">Home</a>
+            <a href="http://localhost:3000">Home</a>
           </li>
           <li>
             <a href="#destination"> Destination</a>

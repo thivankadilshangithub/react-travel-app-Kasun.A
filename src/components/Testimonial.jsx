@@ -20,7 +20,7 @@ export default function Testimonial() {
               <img src={avatar} alt="avatar" />
             </div>
             <div className="info">
-              <h3>Kishan Sheth</h3>
+              <h3>Abdul Malik</h3>
               <span>Full Stack Developer</span>
             </div>
           </div>

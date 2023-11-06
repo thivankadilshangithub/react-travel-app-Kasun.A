@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Hero from '../components/Hero'
 import Services from '../components/Services'
 import Destinations from '../components/Destinations'
@@ -11,6 +11,19 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 const Home = () => {
+    useEffect(() => {
+        if ('geolocation' in navigator) {
+          navigator.geolocation.getCurrentPosition((position) => {
+            const { latitude, longitude } = position.coords;
+            localStorage.setItem('latitude', latitude);
+            localStorage.setItem('longitude', longitude);
+          }, (error) => {
+            console.error('Error getting location:', error);
+          });
+        } else {
+          console.error('Geolocation is not available in this browser.');
+        }
+      }, []);
     return (
         <div>
             <ScrollToTop />
