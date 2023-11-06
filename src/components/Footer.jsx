@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import logo from "../assets/logo.png";
+import Logo from "../assets/new/logo.png";
 import Button from "./Button";
 
 export default function Footer() {
@@ -24,7 +24,7 @@ export default function Footer() {
         <div className="col">
           <div className="brand">
             <div className="logo">
-              <img src={logo} alt="logo" />
+            <img src={Logo} alt="logo" style={{width: '250px', height: '100px'}} />
             </div>
             <p className="desciption">
               You can dream, create, design, and build the most wonderful place.
@@ -35,10 +35,10 @@ export default function Footer() {
               <span> +0213 456 987 </span>
             </li>
             <li>
-              <span>kishansheth21@gmail.com</span>
+              <span>info@citytour.com</span>
             </li>
             <li>
-              <span>www.youtube.com</span>
+              <span>www.youtube.com/citytour</span>
             </li>
           </ul>
         </div>

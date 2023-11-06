@@ -12,19 +12,19 @@ export default function Tours() {
   const data = [
     {
       image: tour1,
-      title: "Santorini, Oia Greece",
+      title: "Discover AlUla",
       price: 2000,
       reviews: "5k Reviews",
     },
     {
       image: tour2,
-      title: "Lighthouse, Bellwood",
+      title: "Jeddah Lighthouse",
       price: 4000,
       reviews: "5k Reviews",
     },
     {
       image: tour3,
-      title: "Riverfront, Japan",
+      title: "Explore Taif",
       price: 3000,
       reviews: "5k Reviews",
     },

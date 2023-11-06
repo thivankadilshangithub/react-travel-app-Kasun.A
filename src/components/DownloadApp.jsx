@@ -7,7 +7,7 @@ export default function DownloadApp() {
   return (
     <Section>
       <div className="info">
-        <h1>Download Now Travel Community Apps</h1>
+        <h1>Download Now City Tour Apps</h1>
         <div className="downloads">
           <img src={googlePlay} alt="google Play" />
           <img src={appStore} alt="apple store" />
