@@ -1,28 +1,16 @@
-import React from "react";
-import Destinations from "./components/Destinations";
-import DownloadApp from "./components/DownloadApp";
-import Footer from "./components/Footer";
-import Home from "./components/Home";
-import Navbar from "./components/Navbar";
-import Offer from "./components/Offer";
-import ScrollToTop from "./components/ScrollToTop";
-import Services from "./components/Services";
-import Testimonial from "./components/Testimonial";
-import Tours from "./components/Tours";
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import Destination from './pages/Destination';
+
 
 export default function App() {
   return (
-    <div>
-      <ScrollToTop />
-      <Navbar />
-      <Home />
-      <Services />
-      <Destinations />
-      <Offer />
-      <Tours />
-      <Testimonial />
-      <DownloadApp />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/destination" element={<Destination />} />
+      </Routes>
+    </Router>
   );
 }

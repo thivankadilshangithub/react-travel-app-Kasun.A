@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import HeroImage from "../assets/hero.png";
 import Button from "./Button";
-export default function Home() {
+export default function Hero() {
   const [value, setValue] = useState("$500 - $10,000");
   return (
     <Section>
