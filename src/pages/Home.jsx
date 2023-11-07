@@ -14,6 +14,7 @@ const Home = () => {
     useEffect(() => {
         if ('geolocation' in navigator) {
           navigator.geolocation.getCurrentPosition((position) => {
+            console.log('position', position)
             const { latitude, longitude } = position.coords;
             localStorage.setItem('latitude', latitude);
             localStorage.setItem('longitude', longitude);

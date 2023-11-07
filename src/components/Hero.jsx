@@ -20,8 +20,8 @@ export default function Hero() {
             <div className="row">
               <label>Destinations</label>
               <select>
-                <option>Arab Egypt</option>
-                <option>Udaipur India</option>
+                <option>Saudi Arabia</option>
+                {/* <option>Udaipur India</option> */}
               </select>
             </div>
             <div className="row">
