@@ -34,6 +34,7 @@ const Destination = () => {
     longitude: 24.72142873518393,
     zoom: 6,
   })
+  // 24.768648991782555, 46.671142261681176
   return (
     <div>
       <ScrollToTop />
@@ -43,9 +44,9 @@ const Destination = () => {
      <Map
         mapboxAccessToken={MAPBOX_TOKEN}
         initialViewState={{
-          longitude: localStorage.getItem('longitude'),
-          latitude: localStorage.getItem('latitude'),
-          zoom: 14
+          longitude: 46.671142261681176,
+          latitude: 24.768648991782555,
+          zoom: 8
         }}
         style={{ width: 1200, height: 600 }}
         mapStyle="mapbox://styles/mapbox/streets-v9"

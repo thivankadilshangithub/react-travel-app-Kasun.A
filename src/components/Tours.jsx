@@ -9,6 +9,9 @@ import vector2 from "../assets/vector2.png";
 import ellipse from "../assets/ellipse.png";
 
 export default function Tours() {
+  const redirectToTour = () => {
+    window.location.href = 'http://localhost:3000/tour';
+  };
   const data = [
     {
       image: tour1,
@@ -63,7 +66,7 @@ export default function Tours() {
                     </div>
                   </div>
                 </div>
-                <button>+</button>
+                <button onClick={redirectToTour}>+</button>
               </div>
             </div>
           );
